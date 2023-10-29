@@ -20,9 +20,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Create some sample file shares with various permissions
-- Attempt to access file shares as a normal user
-- Create an “ACCOUNTANTS” Security Group, assign permissions, and test access.
+- Create Resources within Azure
+- Observe ICMP traffic with Wire Shark
+- Observe SSH traffic
+- Observe DHCP traffic
+- Observe DNS traffic
+- Observe RDP traffic
 
 <h2>Actions and Observations</h2>
 
