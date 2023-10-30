@@ -82,7 +82,6 @@ From your Windows 10 VM within a command line, use nslookup to see what google.c
 Observe the DNS traffic being show in WireShark.
 </p>
 <br />
-![image](https://github.com/seanmaldonadooo/azure-network-protocols/assets/149026184/4c2405d5-92db-4023-9ebe-a89468e5b544)
 
 <p>
 <img src="https://github.com/seanmaldonadooo/azure-network-protocols/assets/149026184/4c2405d5-92db-4023-9ebe-a89468e5b544" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -90,6 +89,6 @@ Observe the DNS traffic being show in WireShark.
 <p>
 Back in Wireshark, filter for RDP traffic only (tcp.port == 3389).
 Observe the immediate non-stop spam of traffic? Why do you think it’s non-stop spamming vs only showing traffic when you do an activity?
-Answer: because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefore traffic is always being transmitted
+Answer: because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefore traffic is always being transmitted.
 </p>
 <br />
